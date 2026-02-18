@@ -1,5 +1,11 @@
 # Lifecycle (v0) — AI-Adapted Product Development (Adaptive + Multi-Feature)
 
+## Stage transition rules (guardrails)
+- **Before advancing:** Confirm with the user that the current stage is complete. Do not infer from existing build or context.
+- **Stage 3 → 4:** Advance to Implementation only after explicit human approval of the Alignment Gate (e.g. "Proceed", "Approved"). Never implement in Stage 0, 1, or 2.
+- **Stage 5 → 6:** Advance to Deploy only after explicit human approval of the Convergence Review (e.g. "Ship", "Approved").
+- **Clarification:** When planning or refining, if multiple valid paths or ambiguity exist, ask the user before proceeding. See oais/agents/stage_gate_guardrails.md.
+
 ## Two flows
 1) Feature Execution Flow (structured stages with gates)
 2) Idea Bank Flow (capture anytime)

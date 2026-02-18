@@ -21,8 +21,9 @@ This is the source of truth for all project documents and rules.
 ### Agents
 - oais/agents/roles.md — Owner: System — Tier: B — Depends: oais/core/*
 - oais/agents/constraints.md — Owner: System — Tier: B — Depends: oais/core/authority_model.md
+- oais/agents/stage_gate_guardrails.md — Owner: System — Tier: B — Depends: oais/workflows/lifecycle.md
 - oais/agents/memory_rules.md — Owner: System — Tier: B — Depends: oais/index/canonical_index.md
-- oais/agents/product_orchestrator_prompt.md — Owner: System — Tier: B — Depends: oais/core/*, oais/workflows/lifecycle.md, oais/workflows/bootstrap_lifecycle.md, oais/contracts/bootstrap_mode.md
+- oais/agents/product_orchestrator_prompt.md — Owner: System — Tier: B — Depends: oais/core/*, oais/workflows/lifecycle.md, oais/workflows/bootstrap_lifecycle.md, oais/contracts/bootstrap_mode.md, oais/agents/stage_gate_guardrails.md
 
 ### Workflows
 - oais/workflows/lifecycle.md — Owner: System — Tier: B — Depends: oais/core/operating_model.md
@@ -44,5 +45,6 @@ This is the source of truth for all project documents and rules.
 - features/_active.md — Owner: System — Tier: B — Depends: oais/workflows/lifecycle.md
 
 ## Changelog
+- 2026-02-15: Added `oais/agents/stage_gate_guardrails.md`; strengthened stage completion validation, human-in-the-loop gates, no-implementation-before-Alignment sign-off, and clarification-seeking in POA prompt, constraints, lifecycle, and roles.
 - 2026-02-15: Restricted canonical index to OAIS docs + project pointers only (keeps feature artifacts and site content out of this index).
 - 2026-02-15: Added OAIS contracts section and `oais/contracts/static_site_conventions.md`.

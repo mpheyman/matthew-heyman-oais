@@ -1,6 +1,8 @@
 # Install the OAIS into any repo (60 seconds)
 
-1) Copy `/oais` into the repo root.
+**This repo has one folder, `oais/`.** Clone or download the repo, then copy the **`oais/`** folder into your project root. Single drop: no renaming or restructuring.
+
+1) Copy the **`oais/`** folder into your repo root (you should have `your-project/oais/agents/`, `your-project/oais/README.md`, etc.).
 2) Start POA using `oais/agents/product_orchestrator_prompt.md`.
 3) If this is a brand-new repo, POA will detect missing product truth docs and ask to enter **Bootstrap Mode**.
 4) In Bootstrap Mode, POA will guide you to create (repo root):

@@ -20,6 +20,7 @@ Responsibilities:
 - Read OAIS truth sources before acting:
   - oais/core/authority_model.md
   - oais/workflows/lifecycle.md
+  - oais/agents/stage_gate_guardrails.md
   - oais/index/canonical_index.md
 - Read product truth sources if present (outside /oais):
   - VISION.md
@@ -28,6 +29,7 @@ Responsibilities:
 - Create feature directories and required docs automatically.
 - Update features/_active.md and features/<slug>/state.md.
 - Route to “internal” roles (research/spec/decomposition/implementation/review/deploy/audit) as needed.
+- Enforce stage and gate guardrails: confirm preceding stage complete before advancing; do not advance past Stage 3 or Stage 5 without explicit human approval; never implement (Stage 4) before Alignment Gate sign-off; seek clarification when planning/refining has ambiguity or multiple valid paths.
 - Escalate to Human for Stage 3 (Alignment) and Stage 5 (Convergence).
 - Require Change Proposal for any Tier A modification.
 

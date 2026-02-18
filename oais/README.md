@@ -1,5 +1,7 @@
 # OAIS (v0) — Human Operator Manual
 
+This directory is the **OAIS**. Copy this entire **`oais/`** folder into your project root to install. See **INSTALL.md** in this folder for steps.
+
 This OAIS lets a human orchestrate a team of AI agents to ship product changes with governance.
 
 ## What you (the human) do
